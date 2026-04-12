@@ -41,3 +41,18 @@
   transform: scale(1.05);
   border-color: var(--red);
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .author-section {
+    grid-template-columns: 1fr;
+  }
+
+  .game-card img {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
