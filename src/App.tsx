@@ -31,9 +31,8 @@ function App() {
               {author !== "Me" && `${author}'s Games`}
             </h3>
             {grouped[author].map((game) => (
-              <a key={game.url} href={game.url}>
-                <img className="thumbnail" src={game.image} alt={game.title} />
-                <p className="gameTitle">{game.title}</p>
+              <a key={game.url} href={game.url} className="game-card">
+                <img src={game.image} alt={game.title} />
               </a>
             ))}
           </div>
