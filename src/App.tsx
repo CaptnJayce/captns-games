@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="container">
       <div className="text">
-        <h1>Captn's Games</h1>
-        <h2>web games made by me and occasionally some friends :)</h2>
+        <h1 className="title">Captn's Games</h1>
+        <h2>web games made by me and occasionally some friends</h2>
       </div>
 
       <div className="games">

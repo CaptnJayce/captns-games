@@ -2,10 +2,16 @@
   width: 80%;
   margin: 0 auto;
   padding-top: 1px;
+  position: relative;
+  z-index: 1;
 }
 
 .text {
   text-align: center;
+}
+
+.title {
+  margin: 2rem 0 2rem 0;
 }
 
 .games {
@@ -31,7 +37,7 @@
   width: 400px;
   height: auto;
   display: block;
-  border: 3px solid var(--border);
+  border: 3px solid var(--red);
   transition:
     transform 0.2s ease,
     border-color 0.2s ease;
@@ -39,7 +45,7 @@
 
 .game-card img:hover {
   transform: scale(1.05);
-  border-color: var(--red);
+  border-color: var(--green);
 }
 
 @media (max-width: 768px) {
@@ -54,5 +60,11 @@
   .game-card img {
     width: 95%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body::before {
+    display: none;
   }
 }
