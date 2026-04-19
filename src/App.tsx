@@ -28,7 +28,7 @@ function App() {
       <div className="games">
         {authors.map((author) => (
           <div key={author} className="author-section">
-            <h3>
+            <h3 className="games-author">
               {author === "Me" && "My Games"}
               {author !== "Me" && `${author}'s Games`}
             </h3>
