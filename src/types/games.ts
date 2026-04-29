@@ -6,27 +6,9 @@ export const myGames = [
         author: "Me",
     },
     {
-        title: "",
-        url: "/",
-        image: "/palceholder.png",
-        author: "Me",
-    },
-    {
-        title: "",
-        url: "/",
-        image: "/palceholder.png",
-        author: "Me",
-    },
-    {
-        title: "",
-        url: "/",
-        image: "/palceholder.png",
-        author: "Me",
-    },
-    {
-        title: "TheSwitch",
-        url: "/",
-        image: "/palceholder.png",
+        title: "The Switch",
+        url: "https://switch-board.vercel.app/",
+        image: "/theswitch.png",
         author: "Ibrahim",
     },
 ];
